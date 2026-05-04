@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Lora', Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.display-font {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.ornament::before {
+  content: '✦';
+  margin-right: 0.5rem;
+  opacity: 0.5;
+}
+
+.ornament::after {
+  content: '✦';
+  margin-left: 0.5rem;
+  opacity: 0.5;
+}
+
+.row-hover:hover {
+  background: #FAF6EE;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid #B8924A;
+  outline-offset: 1px;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #EDE6D9;
+  border-radius: 4px;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
