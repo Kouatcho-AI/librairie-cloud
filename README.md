@@ -3,7 +3,7 @@
 > Application web de gestion d'inventaire pour librairie chrétienne.
 > Multi-utilisateurs, données privées, synchronisation cloud.
 
-**Démo en ligne** : [malibarie.netlify.app](libracloud.netlify.app)
+**Démo en ligne** : [libracloud.netlify.app](libracloud.netlify.app)
 
 ![Signup](assets/signup.png)
 
